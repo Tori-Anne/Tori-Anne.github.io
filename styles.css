@@ -1,10 +1,27 @@
-#id{
-	font-family: Monotype Corsiva;
+
+.outer_heading{
+	text-align: center;
+	background-color: #32A4AE;
+	border: 5px outset grey;
+	height: 150px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 
-.heading{
+.inner_heading{
 	text-align: center;
-	background-color: plum;
+	background-color: #32A4AE;
 	border: 2px solid white;
-	box-shadow: inset 0 0 0 4px white;
+	width: 300px;
+	height: 90px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	color: white;
 }
+
+
+
+#Monotype{
+	font-family: "Monotype Corsiva";
+}
+
