@@ -19,9 +19,14 @@
 	color: white;
 }
 
-
-
 #Monotype{
 	font-family: "Monotype Corsiva";
 }
 
+#circle{
+	background: Tori-Anne.jpg;
+	background-size: cover;
+	border-radius: 50% 50% 50% 50%;
+	width: 300px;
+	height: 300px;
+}
