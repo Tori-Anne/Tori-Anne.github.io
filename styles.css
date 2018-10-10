@@ -17,17 +17,20 @@ header{
 	grid-area: header;
 	background-color: #32A4AE;
 	border: 5px outset grey;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	padding-left: 400px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 180px;
 }
 
 
 .inner_heading{
 	border: 2px solid white;
+	border-radius: 35px;
 	text-align: center;
 	color: white;
-	width: 500px;
+	width: 350px;
 }
 
 
@@ -46,14 +49,15 @@ header{
 	
 
 .circle_container{
-	padding-left: 45px;
-	padding-right: 45px;
+	display: flex;	
+	justify-content: center;
 }
 
 
 aside{
 	grid-area: sidebar;
 	border: 5px solid #32A4AE;
+	border-radius: 10px;
 	background-color: WhiteSmoke;
 	padding-top: 20px;
 	padding-left: 20px;
@@ -66,4 +70,18 @@ main{
 	grid-area: content;
 	padding-left: 20px;	
 	padding-right: 20px;
+}
+
+
+.qualifications{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+	
+
+.details{
+	display: flex;
+	flex-direction: column;
+	width: 750px;
 }
